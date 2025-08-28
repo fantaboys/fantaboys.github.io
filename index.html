@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Regolamento Ufficiale – FantaBoys 2025: modalità con crediti, rosa flessibile, panchina intelligente e voti segreti." />
+  <title>⚽ FantaBoys 2025 – Regolamento Ufficiale</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>⚽</text></svg>">
+  <style>
+    :root{
+      --bg: #0b0d10;
+      --card: #12161b;
+      --text: #e8eef4;
+      --muted: #9fb4c7;
+      --brand: #58c4ff;
+      --accent: #65f2a1;
+      --danger: #ff7b7b;
+      --warn: #ffd166;
+      --ok: #8cff9a;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius: 18px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%}
+    body{
+      font-family: system-ui,-apple-system,Segoe UI,Roboto,Inter,Ubuntu,Helvetica,Arial,sans-serif;
+      background: radial-gradient(1200px 800px at 10% -10%, rgba(88,196,255,.08), transparent),
+                  radial-gradient(1000px 700px at 110% 10%, rgba(101,242,161,.08), transparent),
+                  var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+    .wrap{max-width:1100px;margin:0 auto;padding:28px}
+    header{
+      display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+      padding:22px 20px;margin:18px 0 8px;
+      border-radius:var(--radius);
+      background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01));
+      box-shadow:var(--shadow);
+      border:1px solid rgba(255,255,255,.08);
+    }
+    .logo{width:58px;height:58px;display:grid;place-items:center;border-radius:16px;background:linear-gradient(135deg,#1e2530,#151a20);font-size:34px}
+    h1{font-size:clamp(1.4rem, 2.6vw, 2.2rem);margin:0}
+    .subtitle{color:var(--muted)}
+    nav{
+      display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 0 0
+    }
+    nav a{
+      text-decoration:none;color:var(--text);font-weight:600;
+      padding:9px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.08);
+      background:#0f1318;display:inline-flex;gap:8px;align-items:center
+    }
+    nav a:hover{border-color:rgba(88,196,255,.6); color:var(--brand)}
+
+    .card{background:var(--card);border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);padding:18px 20px;margin:16px 0;box-shadow:var(--shadow)}
+    .card h2{margin:6px 0 10px;font-size:1.3rem}
+    .pill{display:inline-block;padding:.25rem .55rem;border-radius:999px;font-weight:700;font-size:.85rem}
+    .pill.brand{background:rgba(88,196,255,.15);color:var(--brand);border:1px solid rgba(88,196,255,.35)}
+    .pill.accent{background:rgba(101,242,161,.12);color:var(--accent);border:1px solid rgba(101,242,161,.35)}
+    .pill.warn{background:rgba(255,209,102,.13);color:var(--warn);border:1px solid rgba(255,209,102,.38)}
+    .pill.danger{background:rgba(255,123,123,.12);color:var(--danger);border:1px solid rgba(255,123,123,.35)}
+
+    .grid{display:grid;gap:14px}
+    @media(min-width:880px){.grid.two{grid-template-columns:1fr 1fr}}
+
+    table{width:100%;border-collapse:separate;border-spacing:0;overflow:hidden;border-radius:14px;border:1px solid rgba(255,255,255,.08)}
+    th,td{padding:12px 12px;text-align:left}
+    thead th{background:#0f1318;color:var(--muted);font-weight:700}
+    tbody tr:nth-child(odd){background:rgba(255,255,255,.02)}
+    tbody tr:nth-child(even){background:rgba(255,255,255,.04)}
+
+    ul{margin:.25rem 0 .75rem 1.2rem}
+    li{margin:.28rem 0}
+
+    .footer{opacity:.8;color:var(--muted);text-align:center;margin:22px 0}
+    .kpi{
+      display:flex;gap:12px;flex-wrap:wrap;margin:6px 0 0
+    }
+    .kpi .chip{background:#0f1318;border:1px solid rgba(255,255,255,.08);border-radius:999px;padding:.4rem .7rem;font-weight:700}
+
+    .banner{display:flex;align-items:center;gap:10px}
+    .banner .emoji{font-size:1.4rem}
+
+    .notice{padding:12px 14px;border-left:4px solid var(--brand);background:rgba(88,196,255,.08);border-radius:10px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo" aria-hidden="true">⚽</div>
+      <div>
+        <h1>Regolamento Ufficiale – FantaBoys 2025</h1>
+        <div class="subtitle">Modalità con <strong>crediti</strong>, <strong>rosa flessibile</strong>, <strong>panchina intelligente</strong> e <strong>voti segreti</strong>.</div>
+        <nav aria-label="Sezioni">
+          <a href="#obiettivo">🎯 Obiettivo</a>
+          <a href="#partecipazione">👥 Partecipazione</a>
+          <a href="#crediti">💰 Crediti</a>
+          <a href="#rosa">🧑‍🤝‍🧑 Rosa</a>
+          <a href="#punteggio">🔁 Punteggio</a>
+          <a href="#invio">⏰ Invio</a>
+          <a href="#invalidazioni">❌ Non valide</a>
+          <a href="#classifica">📊 Classifica</a>
+        </nav>
+      </div>
+    </header>
+
+    <section id="obiettivo" class="card">
+      <div class="banner"><span class="emoji">🎯</span><h2>Obiettivo del gioco</h2></div>
+      <p>Ogni settimana ogni partecipante costruisce una squadra composta dai veri giocatori del gruppo calcetto, cercando di totalizzare il punteggio più alto. Il vincitore assoluto della stagione riceverà:</p>
+      <p class="kpi">
+        <span class="chip">🏆 Premio <strong>Boyscar – FantAllenatore 2025</strong></span>
+      </p>
+    </section>
+
+    <section id="partecipazione" class="card">
+      <div class="banner"><span class="emoji">👥</span><h2>1. Partecipazione</h2></div>
+      <ul>
+        <li>Il gioco è aperto a chiunque, non solo ai 14 giocatori del gruppo.</li>
+        <li>Le fantasquadre si basano sulle prestazioni reali dei 14 giocatori di calcetto.</li>
+        <li>Ogni partecipante agisce come FantaAllenatore e può includere sé stesso se è tra i giocatori reali.</li>
+      </ul>
+    </section>
+
+    <section id="crediti" class="card">
+      <div class="banner"><span class="emoji">💰</span><h2>2. Valori in crediti dei giocatori</h2></div>
+      <p class="notice"><strong>Budget settimanale:</strong> 13 crediti per costruire la rosa.</p>
+      <div class="grid two">
+        <div>
+          <h3 class="pill brand">💸 Costo in crediti</h3>
+          <table aria-label="Costo Giocatori">
+            <thead>
+              <tr><th>Costo</th><th>Giocatori</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><strong>5</strong></td><td>Samu, Doc, Andrea, Pesca medio</td></tr>
+              <tr><td><strong>4</strong></td><td>Simo gemello, Nazza, Pasquale</td></tr>
+              <tr><td><strong>3</strong></td><td>Fabio, Mozza, Mangio, Zio</td></tr>
+              <tr><td><strong>2</strong></td><td>Pesca, Aragosta, Piccio, Ste</td></tr>
+              <tr><td><strong>1</strong></td><td>Ema, Prio</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <h3 class="pill accent">🧮 Regola budget</h3>
+          <ul>
+            <li>Ogni partecipante ha <strong>13 crediti</strong> a disposizione.</li>
+            <li>Il costo totale della rosa <strong>non può superare</strong> il budget.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="rosa" class="card">
+      <div class="banner"><span class="emoji">🧑‍🤝‍🧑</span><h2>3. Composizione della rosa</h2></div>
+      <ul>
+        <li>La rosa settimanale deve contenere <strong>da 5 a 6 giocatori</strong>:
+          <ul>
+            <li><strong>5</strong> titolari obbligatori</li>
+            <li><strong>1</strong> possibile riserva</li>
+          </ul>
+        </li>
+        <li>Si possono scegliere giocatori già scelti da altri, ma <strong>non</strong> quelli usati da sé stessi la settimana precedente.</li>
+        <li>Ci si può scegliere <em>sé stessi</em>, se si gioca.</li>
+      </ul>
+    </section>
+
+    <section id="punteggio" class="card">
+      <div class="banner"><span class="emoji">🔁</span><h2>4. Punteggio settimanale</h2></div>
+      <p>Il punteggio è determinato <strong>sommando i 5 migliori</strong> punteggi tra i giocatori scelti (titolari e riserva).</p>
+      <div class="grid two">
+        <div>
+          <h3 class="pill brand">🎯 Eventi di gioco</h3>
+          <table aria-label="Eventi e punti">
+            <thead><tr><th>Evento in campo</th><th>Punti</th></tr></thead>
+            <tbody>
+              <tr><td>Gol</td><td><strong>+2</strong></td></tr>
+              <tr><td>Assist</td><td><strong>+1</strong></td></tr>
+              <tr><td>Parata decisiva (portiere)</td><td><strong>+0.5</strong></td></tr>
+              <tr><td>Autogol</td><td class="pill danger">−2</td></tr>
+              <tr><td>Fallo grave/antisportivo</td><td class="pill warn">−1</td></tr>
+              <tr><td>Man of the Match</td><td class="pill accent">+1</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <h3 class="pill accent">➕ Bonus / ➖ Malus in base al voto</h3>
+          <table aria-label="Voto e bonus">
+            <thead><tr><th>Voto ottenuto</th><th>Bonus/Malus</th></tr></thead>
+            <tbody>
+              <tr><td>Sotto il 6</td><td>−1</td></tr>
+              <tr><td>6</td><td>+4</td></tr>
+              <tr><td>7</td><td>+5</td></tr>
+              <tr><td>8</td><td>+6</td></tr>
+              <tr><td>9</td><td>+7</td></tr>
+              <tr><td>10</td><td>+8</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="invio" class="card">
+      <div class="banner"><span class="emoji">⏰</span><h2>5. Invio della formazione</h2></div>
+      <ul>
+        <li>La rosa va inviata <strong>entro le 19:00</strong> del giorno della partita.</li>
+        <li>Inviare in privato al Bot <strong>@FantaBoysbot</strong> su Telegram con messaggio privato (non sul gruppo) scrivendo: <code>/formazione Giocatore1, Giocatore2, …</code></li>
+        <li>Non sono ammesse modifiche dopo l’orario limite.</li>
+      </ul>
+      <p class="notice"><strong>Formazioni segrete:</strong> le formazioni restano segrete fino al giorno successivo alla partita, quando vengono pubblicati i voti ufficiali e i risultati.</p>
+    </section>
+
+    <section id="invalidazioni" class="card">
+      <div class="banner"><span class="emoji">❌</span><h2>6. Formazioni non valide = 0 punti</h2></div>
+      <p>Ottiene <strong>0 punti</strong> chi commette uno dei seguenti errori:</p>
+      <ul>
+        <li>Invia meno di 5 o più di 6 giocatori</li>
+        <li>Supera il limite dei 13 crediti</li>
+        <li>Inserisce un giocatore già usato la settimana precedente</li>
+        <li>Non invia la formazione entro le 19:00 del giorno della partita</li>
+      </ul>
+    </section>
+
+    <section id="classifica" class="card">
+      <div class="banner"><span class="emoji">📊</span><h2>7. Classifica</h2></div>
+      <p>Ogni settimana si aggiorna la classifica generale sul gruppo <strong>FantaBoys 2025</strong>.</p>
+      <p>Alla fine della stagione, il partecipante con più punti vince il <strong>Premio Boyscar – FantAllenatore 2025</strong>.</p>
+    </section>
+
+    <p class="footer">© 2025 FantaBoys • Pagina statica per GitHub Pages • Contenuto tratto dal regolamento ufficiale.</p>
+  </div>
+</body>
+</html>
+
